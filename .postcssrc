@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "@fullhuman/postcss-purgecss": {
+      "content": [
+        "./src/**/*.jsx",
+        "./src/**/*.html"
+      ],
+      "safelist": [
+        "btn-sm",
+        "btn-lg"
+      ]
+    }
+  }
+}
